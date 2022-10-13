@@ -12,11 +12,6 @@ resource "azurerm_container_registry" "k8s_acr" {
   georeplication_locations = ["North Europe", "West Europe"]
 }
 
-
-
-
-
-
 resource "random_id" "azure_random" {
   byte_length = 8
 }
